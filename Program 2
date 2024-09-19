@@ -1,0 +1,4 @@
+names = ["Alice", "Bob", "Charlie"]
+ages = [25, 30, 22]
+for index in range(1,3):
+    print(names[index],"is",ages[index])
