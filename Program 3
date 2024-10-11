@@ -1,0 +1,11 @@
+names = []
+marks = []
+for i in range(5):
+    name = input("Please enter your name: ")
+    mark = input("Please enter your mark out of 100: ")
+    names.append(name)
+    marks.append(mark)
+no = 0
+for x in range(5):
+    print (names[no], marks[no])
+    no = no + 1
